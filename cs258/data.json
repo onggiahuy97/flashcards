@@ -1,0 +1,230 @@
+[
+  {
+    "question": "What are the main advantages of optical fiber communication?",
+    "answer": "Huge bandwidth, long-range transmission, low noise, interference immunity, and low cost."
+  },
+  {
+    "question": "What is Wavelength Division Multiplexing (WDM)?",
+    "answer": "A technique where multiple data channels are transmitted using different wavelengths on the same optical fiber."
+  },
+  {
+    "question": "What are the basic components of a WDM system?",
+    "answer": "Multiplexer, demultiplexer, optical amplifiers, and wavelength converters."
+  },
+  {
+    "question": "What is the function of an Optical Add-Drop Multiplexer (OADM)?",
+    "answer": "It allows adding or dropping specific wavelengths while letting others pass through in a WDM network."
+  },
+  {
+    "question": "What is an Optical Cross-Connect (OXC)?",
+    "answer": "A network device that switches optical signals between different fiber paths based on wavelength."
+  },
+  {
+    "question": "What is the purpose of an Erbium-Doped Fiber Amplifier (EDFA)?",
+    "answer": "It amplifies optical signals to extend transmission distances without converting them to electrical signals."
+  },
+  {
+    "question": "What is the critical angle in optical fiber communication?",
+    "answer": "The minimum angle of incidence at which total internal reflection occurs, preventing light from escaping the fiber core."
+  },
+  {
+    "question": "What are the types of dispersion in optical fibers?",
+    "answer": "Intermodal dispersion, chromatic dispersion, and polarization mode dispersion."
+  },
+  {
+    "question": "What is Passive Optical Network (PON)?",
+    "answer": "A fiber-optic telecommunications technology that uses a point-to-multipoint architecture without active components between endpoints."
+  },
+  {
+    "question": "What are the main types of switching in optical networks?",
+    "answer": "Circuit switching, packet switching, and burst switching."
+  },
+  {
+    "question": "What is the difference between transparent and opaque optical switching?",
+    "answer": "Transparent switching processes signals purely in the optical domain, whereas opaque switching involves optical-to-electrical conversion."
+  },
+  {
+    "question": "What are the challenges of Optical Packet Switching (OPS)?",
+    "answer": "Lack of optical RAM, contention resolution, and synchronization issues."
+  },
+  {
+    "question": "What are the methods for resolving contention in Optical Packet Switching?",
+    "answer": "Time domain buffering, wavelength conversion, and space deflection."
+  },
+  {
+    "question": "What is an Optical Line Terminal (OLT)?",
+    "answer": "A device that connects an optical network to a service provider's central network and manages data transmission to ONUs."
+  },
+  {
+    "question": "What is an Optical Network Unit (ONU)?",
+    "answer": "A device at the user’s end in a PON that converts optical signals to electrical signals and vice versa."
+  },
+  {
+    "question": "What is the difference between WDM-PON and TDM-PON?",
+    "answer": "WDM-PON assigns different wavelengths to ONUs, while TDM-PON uses time slots to share a single wavelength."
+  },
+  {
+    "question": "What is the function of the Multi-Point Control Protocol (MPCP) in EPON?",
+    "answer": "It manages time-slot assignments between the Optical Line Terminal (OLT) and Optical Network Units (ONUs)."
+  },
+  {
+    "question": "How does wavelength conversion help in contention resolution?",
+    "answer": "It allows packets to switch to an available wavelength to avoid collisions."
+  },
+  {
+    "question": "What is the purpose of delay compensation in EPON?",
+    "answer": "It ensures that time slots assigned to different ONUs do not overlap due to varying propagation delays."
+  },
+  {
+    "question": "What is the main challenge in optical buffering?",
+    "answer": "Unlike electrical networks, optical networks lack true random-access memory (RAM), so buffering is done using fiber loops."
+  },
+  {
+    "question": "What is the primary reason for using optical communications?",
+    "answer": "Optical communications provide huge bandwidth, long-range transmission, low noise, interference immunity, and low cost."
+  },
+  {
+    "question": "What does WDM stand for, and what is its purpose?",
+    "answer": "WDM stands for Wavelength Division Multiplexing, and it enables multiple data streams to be transmitted on the same fiber by using different wavelengths."
+  },
+  {
+    "question": "What is a lightpath in WDM networks?",
+    "answer": "A lightpath is an optical circuit established between source and destination nodes using specific wavelengths in a WDM network."
+  },
+  {
+    "question": "What is the function of a multiplexer in a WDM system?",
+    "answer": "A multiplexer combines multiple optical signals onto a single fiber by assigning them different wavelengths."
+  },
+  {
+    "question": "What is the function of a demultiplexer in a WDM system?",
+    "answer": "A demultiplexer separates different wavelengths from a fiber and directs them to the appropriate receiver."
+  },
+  {
+    "question": "What is ITU-T G.694.1?",
+    "answer": "ITU-T G.694.1 defines spectral grids for WDM applications, specifying fixed channel spacing for optical transmission."
+  },
+  {
+    "question": "What is an Optical Add-Drop Multiplexer (OADM) used for?",
+    "answer": "An OADM selectively adds or drops specific wavelengths from a WDM system while allowing others to pass through."
+  },
+  {
+    "question": "What is an Optical Cross-Connect (OXC)?",
+    "answer": "An OXC is a device that routes optical signals between different fiber paths based on wavelength assignments."
+  },
+  {
+    "question": "What is the role of an Optical Line Terminal (OLT)?",
+    "answer": "The OLT connects an optical network to the service provider’s core network and manages data transmission with Optical Network Units (ONUs)."
+  },
+  {
+    "question": "What is an Optical Network Unit (ONU)?",
+    "answer": "An ONU is a device located at the user’s premises that receives optical signals from the OLT and converts them into electrical signals."
+  },
+  {
+    "question": "What is the function of an Erbium-Doped Fiber Amplifier (EDFA)?",
+    "answer": "An EDFA amplifies optical signals to extend transmission distances without the need for optical-to-electrical conversion."
+  },
+  {
+    "question": "What are the primary optical transmission components in a fiber optic system?",
+    "answer": "Optical Line Terminal (OLT), multiplexer, demultiplexer, transmitter (laser), receiver (filter), Optical Add-Drop Multiplexer (OADM), and Erbium-Doped Fiber Amplifier (EDFA)."
+  },
+  {
+    "question": "What are the core elements of an optical network?",
+    "answer": "Optical fibers, optical transmitters, optical receivers, and switching elements."
+  },
+  {
+    "question": "What is total internal reflection in optical fibers?",
+    "answer": "Total internal reflection occurs when light inside the fiber core is completely reflected at the core-cladding interface, preventing it from escaping."
+  },
+  {
+    "question": "What is Snell’s Law in optical networking?",
+    "answer": "Snell’s Law describes the relationship between the angles of incidence and refraction when light passes between two different transparent media."
+  },
+  {
+    "question": "What is chromatic dispersion in optical fibers?",
+    "answer": "Chromatic dispersion occurs because different wavelengths travel at different speeds through the fiber, causing pulse broadening."
+  },
+  {
+    "question": "What is polarization mode dispersion (PMD)?",
+    "answer": "PMD occurs when different polarization modes of light travel at different speeds through an optical fiber, leading to signal distortion."
+  },
+  {
+    "question": "What is an all-wave fiber?",
+    "answer": "An all-wave fiber has a low-loss region that extends beyond traditional fiber limits, allowing for the use of a wider range of wavelengths."
+  },
+  {
+    "question": "What is an Optical Packet Switch (OPS)?",
+    "answer": "An OPS is a switch that processes and routes optical packets without converting them to electrical signals."
+  },
+  {
+    "question": "What are the major challenges in Optical Packet Switching (OPS)?",
+    "answer": "The lack of optical RAM, the need for contention resolution, and synchronization issues."
+  },
+  {
+    "question": "What are the three main contention resolution techniques in optical networks?",
+    "answer": "Time-domain buffering, wavelength conversion, and space deflection."
+  },
+  {
+    "question": "What is wavelength conversion in optical networks?",
+    "answer": "Wavelength conversion changes the wavelength of an optical signal to avoid contention or improve network efficiency."
+  },
+  {
+    "question": "What is optical buffering in contention resolution?",
+    "answer": "Optical buffering temporarily stores data in fiber delay lines to manage packet contention."
+  },
+  {
+    "question": "What is space deflection in contention resolution?",
+    "answer": "Space deflection reroutes packets to alternative paths when contention occurs, ensuring successful data transmission."
+  },
+  {
+    "question": "What is a Passive Optical Network (PON)?",
+    "answer": "A PON is a point-to-multipoint fiber-optic network that uses passive components for data transmission between the OLT and ONUs."
+  },
+  {
+    "question": "What is the difference between TDM-PON and WDM-PON?",
+    "answer": "TDM-PON shares a single wavelength among ONUs using time division, while WDM-PON assigns different wavelengths to each ONU."
+  },
+  {
+    "question": "What is the function of the Multi-Point Control Protocol (MPCP) in Ethernet PON (EPON)?",
+    "answer": "MPCP manages time-slot assignments between the Optical Line Terminal (OLT) and Optical Network Units (ONUs)."
+  },
+  {
+    "question": "What is delay compensation in EPON?",
+    "answer": "Delay compensation ensures that time slots assigned to ONUs do not overlap due to varying propagation delays."
+  },
+  {
+    "question": "What is the purpose of the GATE message in EPON?",
+    "answer": "The GATE message assigns transmission time slots to ONUs in an EPON network."
+  },
+  {
+    "question": "What is the REPORT message in EPON?",
+    "answer": "The REPORT message is sent by an ONU to inform the OLT of its queue length and request bandwidth."
+  },
+  {
+    "question": "How does IPACT improve bandwidth efficiency in EPON?",
+    "answer": "IPACT (Interleaved Polling with Adaptive Cycle Time) dynamically adjusts time-slot allocations based on ONU demand to reduce delays."
+  },
+  {
+    "question": "What is static bandwidth assignment in EPON?",
+    "answer": "Static bandwidth assignment allocates fixed time slots to each ONU, regardless of actual demand."
+  },
+  {
+    "question": "What is dynamic bandwidth assignment in EPON?",
+    "answer": "Dynamic bandwidth assignment adjusts time slots based on ONU traffic demand, improving network efficiency."
+  },
+  {
+    "question": "What is priority-based routing in Optical Packet Switching (OPS)?",
+    "answer": "Priority-based routing assigns different priority levels to packets, allowing higher-priority packets to preempt lower-priority ones."
+  },
+  {
+    "question": "What is the role of electrical buffering in hybrid electro-optical switching?",
+    "answer": "Electrical buffering at the network edge stores packets before optical conversion, reducing contention in optical switches."
+  },
+  {
+    "question": "What is an optical MEMS switch?",
+    "answer": "A MEMS (Micro-Electro-Mechanical System) switch uses tiny movable mirrors to direct optical signals in an optical switching system."
+  },
+  {
+    "question": "How does an optical delay line work?",
+    "answer": "An optical delay line stores data by looping optical signals through fiber, providing a fixed delay before forwarding."
+  }
+]
