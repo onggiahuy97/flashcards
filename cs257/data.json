@@ -1,0 +1,83 @@
+
+[
+  {
+    "question": "What is an index in a database?",
+    "answer": "An index is a data structure that improves the speed of data retrieval operations by organizing records efficiently."
+  },
+  {
+    "question": "What are the trade-offs of using an index?",
+    "answer": "Indexes speed up searches but slow down insertions, updates, and deletions. They also require additional disk space."
+  },
+  {
+    "question": "What is a primary index?",
+    "answer": "A primary index is built on the primary key of a table, ensuring unique and ordered data storage."
+  },
+  {
+    "question": "What is a secondary index?",
+    "answer": "A secondary index is built on a non-primary key attribute to improve search performance."
+  },
+  {
+    "question": "What is the difference between a clustered and unclustered index?",
+    "answer": "A clustered index stores data in the same order as the index, while an unclustered index keeps data unordered, requiring extra lookups."
+  },
+  {
+    "question": "How many clustered indexes can a table have?",
+    "answer": "A table can have only one clustered index since it determines the physical order of data storage."
+  },
+  {
+    "question": "What is a dense index?",
+    "answer": "A dense index contains an entry for every search key value present in the data file."
+  },
+  {
+    "question": "What is a sparse index?",
+    "answer": "A sparse index contains entries only for some search key values, reducing storage space but requiring additional lookups."
+  },
+  {
+    "question": "What is a composite index?",
+    "answer": "A composite index is an index that includes multiple attributes as search keys to speed up multi-condition queries."
+  },
+  {
+    "question": "When should you use a clustered index?",
+    "answer": "Clustered indexes are best used for range queries and sorting operations."
+  },
+  {
+    "question": "When should you use a hash-based index?",
+    "answer": "Hash-based indexes are best for equality searches, as they offer constant-time lookups but do not support range queries efficiently."
+  },
+  {
+    "question": "What is a B+ Tree index?",
+    "answer": "A B+ Tree index is a balanced tree structure that efficiently supports both equality and range queries by maintaining sorted data entries."
+  },
+  {
+    "question": "Why are B+ Trees preferred over binary search trees for indexing?",
+    "answer": "B+ Trees maintain a balanced structure with logarithmic search time and high fanout, reducing tree depth and improving search efficiency."
+  },
+  {
+    "question": "What happens when inserting a value into a B+ Tree?",
+    "answer": "If the leaf node has space, the value is inserted. Otherwise, the node splits, and the middle key is promoted to the parent node."
+  },
+  {
+    "question": "What happens when deleting a value from a B+ Tree?",
+    "answer": "If the node has enough entries, it is removed. If underflow occurs, the tree redistributes or merges nodes, adjusting the structure."
+  },
+  {
+    "question": "What is an index-only plan?",
+    "answer": "An index-only plan retrieves query results using just the index without accessing the full data table, improving performance."
+  },
+  {
+    "question": "How do hash indexes handle collisions?",
+    "answer": "Hash indexes handle collisions using overflow buckets, chaining, or linear probing techniques."
+  },
+  {
+    "question": "How do you decide which indexes to create?",
+    "answer": "Index selection depends on query patterns; clustered indexes for range queries, hash indexes for equality, and composite indexes for multi-condition queries."
+  },
+  {
+    "question": "What is the impact of indexing on updates?",
+    "answer": "Indexes slow down insert, update, and delete operations because they require additional maintenance when modifying data."
+  },
+  {
+    "question": "Why can a database have only one clustered index?",
+    "answer": "A clustered index determines the physical order of records, so having multiple clustered indexes would conflict with that order."
+  }
+]
